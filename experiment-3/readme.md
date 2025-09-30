@@ -12,9 +12,9 @@ Compare their **time complexity, space complexity, and efficiency**.
 - Follows the definition of matrix multiplication.  
 - For each element `(i, j)` in result matrix `C`, compute:  
 
-\[
+$$
 C[i][j] = \sum_{k=1}^{n} A[i][k] \times B[k][j]
-\]
+$$
 
 - Requires **n³ multiplications**.  
 - Works for all `n × n` matrices.  
